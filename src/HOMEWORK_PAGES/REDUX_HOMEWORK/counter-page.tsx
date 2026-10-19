@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
-import { type AppDispatch, type RootState } from "../../state/store.js";
-import { addItem, removeItem, clearCart, type Product } from "../../state/cartSlice.js";
+import { type AppDispatch, type RootState } from "../../HOMEWORK/store.js";
+import { addItem, removeItem, clearCart, type Product } from "../../HOMEWORK/cartSlice.js";
 
 const CartPage = () => {
     // 1. Дістаємо дані зі стейту кошика

@@ -6,8 +6,8 @@ import RootLayout from './root_layout.js';
 import App from './app.js';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Provider } from 'react-redux';
-import { store } from './state/store.js';
-import { addItem, removeItem, clearCart } from './state/cartSlice.js'; // 1. Імпортуємо екшени кошика
+import { store } from './HOMEWORK/store.js';
+import { addItem, removeItem, clearCart } from './HOMEWORK/cartSlice.js'; // 1. Імпортуємо екшени кошика
 
 // === ТЕСТУВАННЯ REDUX СТОРУ В КОНСОЛІ ===
 console.log("--- ПОЧАТОК ТЕСТУ REDUX ---");
